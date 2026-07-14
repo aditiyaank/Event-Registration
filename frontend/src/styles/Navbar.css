@@ -1,0 +1,66 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 80px;
+
+    background:rgba(15,23,42,.75);
+
+    backdrop-filter:blur(16px);
+    
+    color: white;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #38bdf8;
+}
+
+.register-btn {
+    background: #2563eb;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    padding: 12px 22px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.register-btn:hover {
+    background: #1d4ed8;
+}

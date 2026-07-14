@@ -1,0 +1,24 @@
+import "./Button.css";
+
+function Button({
+    children,
+    variant = "primary",
+    onClick
+}) {
+
+    return (
+
+        <button
+            className={`btn ${variant}`}
+            onClick={onClick}
+        >
+
+            {children}
+
+        </button>
+
+    );
+
+}
+
+export default Button;

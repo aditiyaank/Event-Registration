@@ -1,0 +1,63 @@
+.btn {
+
+    border: none;
+
+    outline: none;
+
+    cursor: pointer;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    transition: var(--transition);
+
+}
+
+/* Primary Button */
+
+.primary {
+
+    background: linear-gradient(
+        135deg,
+        var(--primary),
+        var(--secondary)
+    );
+
+    color: var(--white);
+
+    box-shadow: var(--shadow);
+
+}
+
+.primary:hover {
+
+    transform: translateY(-3px);
+
+    filter: brightness(1.05);
+
+}
+
+/* Secondary Button */
+
+.secondary {
+
+    background: transparent;
+
+    border: 2px solid var(--primary);
+
+    color: var(--primary);
+
+}
+
+.secondary:hover {
+
+    background: var(--primary);
+
+    color: white;
+
+}

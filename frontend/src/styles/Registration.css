@@ -1,0 +1,23 @@
+.registration{
+    padding:100px 8%;
+    text-align:center;
+}
+
+.registration h2{
+    font-size:48px;
+    margin-bottom:20px;
+}
+
+.registration p{
+    color:#64748b;
+    margin-bottom:35px;
+}
+
+.registration button{
+    padding:18px 40px;
+    border:none;
+    border-radius:50px;
+    color:white;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    cursor:pointer;
+}
